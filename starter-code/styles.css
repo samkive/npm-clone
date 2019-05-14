@@ -2,7 +2,8 @@ nav {
   background-color: #C12127;
   color: rgba(255,255,255,0.8);
   padding-top: 15px;
-  height: 100px;
+  height: 30px;
+  margin: -10px
 }
 
 nav a {
@@ -11,13 +12,193 @@ nav a {
 }
 
 .top-links {
-  display: inline-block;
-  float: right;
+  text-align: right;
   padding: 0;
-  margin: 0 20px 0 0;
+  margin: 0 10px;
 }
 
 .top-links li {
+  position : relative;
   display: inline-block;
   margin: 0 10px;
+  padding-top: 10px;
+  top: -30px;
+  
+}
+
+.top-left{
+    position: relative;
+    left: 20px;
+}
+
+
+header{
+  color:white;
+  background-color: rgb(32, 101, 136);
+  
+  height: 400px;
+  margin: 10px -10px 50px -10px
+}
+.leftsearchbar{
+  text-align: right;
+  margin: -70px 20px;
+}
+.leftsearchbar li{
+  display:inline-block;
+  margin: 0 10px;
+}
+.leftsearchbar input[type=text] {
+  padding: 6px;
+  border: white;
+  width: 1050px;
+  font-size: 17px;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid white;
+  
+}
+.logo{
+  margin: 10px;
+}
+
+
+
+.firstpage{
+  margin: 20px 0px 10px 0px;
+  padding: 100px 0px;
+  background-image: url("./images/city-scape.svg");
+
+}
+.title1{
+  text-align:left;
+  margin-left:200px;
+  font-size: 200%;
+
+}
+.paragraph1{
+  text-align:left;
+  margin-right:800px;
+  margin-left:200px;
+  
+}
+#signupnpm{
+  font-size: 15px;
+  color: white;
+  text-align: left;
+  margin-left:200px;
+  background-color: rgb(240, 146, 51);
+  border-radius: 20px;
+  border: 0px solid rgb(240, 146, 51);
+  padding:10px 20px;
+}
+
+.section1{
+  color: white;
+  background-color: rgb(39, 53, 71);
+
+  margin-top: -40px;
+  margin-bottom: 0px;
+  margin-right: -10px;
+  margin-left: -10px;
+  padding-bottom: 70px
+}
+
+.section1 img{
+  margin-left: 250px;
+  
+}
+.section1 h2{
+  text-align: left;
+  margin-left:800px;
+  margin-right:250px;
+  margin-top :50px;
+  margin-top: -400px;
+  font-size: 30px
+}
+.section1 ul{
+  text-align: left;
+  margin-left:800px;
+  margin-top :50px;
+}
+.section1 li{
+  margin:10px;
+
+}
+.section1 button{
+  text-align: left;
+  margin-left:900px;
+  margin-top :20px;
+
+  font-size: 15px;
+  color: white;
+  background-color: rgb(203, 56, 55);
+  border-radius: 20px;
+  border: 0px solid rgb(203, 56, 55);
+  padding:10px 20px;
+}
+
+.section2{
+  color: white;
+  margin-top: -40px;
+  margin-bottom: 0px;
+  margin-right: -10px;
+  margin-left: -10px;
+  padding-bottom: 70px;
+  background-image: url("./images/forklift.svg");
+  background-size:cover;
+  
+}
+.section2 h2{
+  text-align: left;
+  padding:100px 0px 10px 350px;
+  font-size: 30px
+
+}
+.section2 p{
+  text-align:left;
+  padding:10px 0px 10px 350px;
+  margin-right: 800px;
+
+}
+.section2 button{
+  text-align:left;
+  margin-left: 350px;
+
+  font-size: 15px;
+  color: white;
+  background-color: rgb(49, 68, 88);
+  border-radius: 20px;
+  border: 0px solid rgb(49, 68, 88);
+  padding:10px 20px;
+  
+
+}
+.section3{
+  color:rgb(83, 88, 98);
+}
+.section3 .div1{
+  text-align: center;
+  
+}
+
+.row
+{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 50px; /*Optional*/
+  
+}
+.column
+{
+    display: table-cell;
+    text-align: center;
+
+  
+}
+
+.column p{
+  color:rgb(135, 145, 156);
+}
+.column a{
+  color: rgb(208, 74, 73)
 }
